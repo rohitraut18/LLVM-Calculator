@@ -18,21 +18,19 @@ Calculator is a command-line tool built using LLVM and C++ that parses and evalu
 ## Installation
 
 Clone the repository and build the project using CMake:
-```bash
-git clone https://github.com/your-username/calculator.git
-cd calculator
-mkdir build && cd build
-cmake ..
-cmake --build .
+
+git clone https://github.com/your-username/calculator.git <br>
+cd calculator<br>
+mkdir build && cd build<br>
+cmake ..<br>
+cmake --build .<br>
 
 ## Usage
 Run the calculator executable with a mathematical expression as an argument:
 
-bash
 ./calculator "2 * (3 + 4)"
 
 This will evaluate the expression 2 * (3 + 4) and print the result.
 
 ## Contributing
-
-# Contributions are welcome! Please fork the repository and submit a pull request for any enhancements, bug fixes, or new features.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements, bug fixes, or new features.
